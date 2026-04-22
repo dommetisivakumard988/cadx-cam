@@ -1,12 +1,9 @@
 [phases.setup]
 nixPkgs = ["python311"]
+venv = "true"
 
 [phases.install]
-cmds = [
-  "python -m ensurepip --upgrade",
-  "python -m pip install --upgrade pip",
-  "python -m pip install -r requirements.txt"
-]
+cmds = ["pip install -r requirements.txt"]
 
 [start]
 cmd = "uvicorn cam_server:app --host 0.0.0.0 --port $PORT"
