@@ -1,0 +1,17 @@
+cadquery==2.4.0
+cadquery-ocp>=7.7.0
+opencamlib>=0.9
+numpy>=1.24
+trimesh>=4.0
+scipy>=1.11
+shapely>=2.0
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+aiofiles>=23.0
+supabase>=2.4
+storage3>=0.7
+rtree>=1.2
+sentry-sdk[fastapi]>=2.0
+gunicorn>=22.0
+python-dotenv>=1.0
